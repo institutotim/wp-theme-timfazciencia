@@ -1,0 +1,2003 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Nexus v1.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-07-18 19:40+0300\n"
+"PO-Revision-Date: 2015-12-08 13:18-0200\n"
+"Last-Translator: uiu <wil.cavalheiro@gmail.com>\n"
+"Language-Team: Ann\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: pt_BR\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ Nexus
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+# @ Nexus
+#: comments.php:13
+msgid "0 Comments"
+msgstr "0 comentários"
+
+# @ Nexus
+#: comments.php:13 functions.php:393
+msgid "1 Comment"
+msgstr "1 comentário"
+
+# @ Nexus
+#: comments.php:13
+msgid "Comments"
+msgstr "Comentários"
+
+# @ Nexus
+#: comments.php:18 comments.php:31
+msgid "<span class=\"meta-nav\">&larr;</span> Older Comments"
+msgstr "<span class=\"meta-nav\">&larr;</span> Comentários antigos"
+
+# @ Nexus
+#: comments.php:19 comments.php:32
+msgid "Newer Comments <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Comentários recentes <span class=\"meta-nav\">&rarr;</span>"
+
+# @ Nexus
+#: comments.php:38
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+# @ Nexus
+#: comments.php:56
+msgid "Submit a Comment"
+msgstr "Envie um comentário"
+
+# @ default
+#: comments.php:56
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Deixe uma resposta para %s"
+
+# @ Nexus
+#: front-page.php:31 front-page.php:67 functions.php:1391
+msgid "All Categories"
+msgstr "Todas as Categorias"
+
+# @ Nexus
+#: front-page.php:96 front-page.php:139
+msgid "Load More Posts"
+msgstr "Carregar mais posts"
+
+# @ Nexus
+#: front-page.php:69
+#, php-format
+msgid "Recent Reviews From <span>%s</span>"
+msgstr ""
+
+# @ Nexus
+#: front-page.php:240 functions.php:1455
+msgid "All Time"
+msgstr ""
+
+# @ Nexus
+#: front-page.php:242 functions.php:1451
+msgid "This Week"
+msgstr ""
+
+# @ Nexus
+#: front-page.php:244
+msgid "This Month"
+msgstr ""
+
+# @ Nexus
+#: front-page.php:245
+#, php-format
+msgid "Popular Posts <span>%s</span>"
+msgstr "Posts Populares <span>%s</span>"
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:15 front-page.php:211 front-page.php:312
+#: includes/widgets/widget-recent-videos.php:69
+msgid "Previous"
+msgstr "Anterior"
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:15 front-page.php:212 front-page.php:313
+#: includes/widgets/widget-recent-videos.php:70
+msgid "Next"
+msgstr "Próximo"
+
+# @ Nexus
+#: front-page.php:339
+#, php-format
+msgid "Please, add several homepage modules. <a href=\"%1$s\">Click here to start</a>."
+msgstr ""
+
+# @ Nexus
+#: functions.php:59
+msgid "Primary Menu"
+msgstr ""
+
+# @ Nexus
+#: functions.php:61
+msgid "Footer Menu"
+msgstr ""
+
+# @ Nexus
+#: functions.php:425 page-blog.php:53
+msgid "on"
+msgstr ""
+
+# @ Nexus
+#: functions.php:351
+#, php-format
+msgid "Posts by %s"
+msgstr "Posts por %s"
+
+# @ Nexus
+#: functions.php:385
+msgid "% Comments"
+msgstr "% Comentários"
+
+# @ Nexus
+#: functions.php:389
+msgid "No Comments"
+msgstr "Sem comentários"
+
+# @ Nexus
+#: functions.php:413 page-blog.php:53
+msgid "Posted"
+msgstr "Postado"
+
+# @ Nexus
+#: functions.php:419
+msgid "By"
+msgstr "Por"
+
+# @ Nexus
+#: functions.php:431 page-blog.php:53
+msgid "in"
+msgstr ""
+
+# @ Nexus
+#: functions.php:451
+msgid "ET Settings"
+msgstr ""
+
+# @ Vertex
+#: functions.php:473
+msgid "Video URL"
+msgstr ""
+
+# @ Nexus
+#: functions.php:485
+msgid "Review Rating"
+msgstr ""
+
+# @ Nexus
+#: functions.php:501
+msgid "Header Image"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:204 functions.php:505
+msgid "Upload Image"
+msgstr ""
+
+# @ Nexus
+#: functions.php:643
+msgid "Fonts"
+msgstr ""
+
+# @ Nexus
+#: functions.php:653
+msgid "Schemes"
+msgstr ""
+
+# @ Nexus
+#: functions.php:657
+msgid "Note: Color settings set above should be applied to the Default color scheme."
+msgstr ""
+
+# @ Nexus
+#: functions.php:679
+msgid "Link Color"
+msgstr ""
+
+# @ Nexus
+#: functions.php:705
+msgid "Main Font Color"
+msgstr ""
+
+# @ Nexus
+#: functions.php:757
+msgid "Menu Links Color"
+msgstr ""
+
+# @ Nexus
+#: functions.php:783
+msgid "Active Menu Link Color"
+msgstr ""
+
+# @ Nexus
+#: functions.php:807
+msgid "Header Font"
+msgstr ""
+
+# @ Nexus
+#: functions.php:835
+msgid "Body Font"
+msgstr ""
+
+# @ Nexus
+#: functions.php:865
+msgid "Color Schemes"
+msgstr ""
+
+# @ Nexus
+#: functions.php:875
+msgid "Default"
+msgstr ""
+
+# @ Nexus
+#: functions.php:877
+msgid "Blue"
+msgstr ""
+
+# @ Nexus
+#: functions.php:881
+msgid "Purple"
+msgstr ""
+
+# @ Nexus
+#: functions.php:883
+msgid "Red"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1035 page-blog.php:53
+msgid "0 comments"
+msgstr "0 comentários"
+
+# @ Nexus
+#: functions.php:1035 page-blog.php:53
+msgid "1 comment"
+msgstr "1 comentário"
+
+# @ Nexus
+#: functions.php:1035 page-blog.php:53
+msgid "comments"
+msgstr "comentários"
+
+# @ Nexus
+#: functions.php:1177
+msgid "Nexus Homepage Builder"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1417 functions.php:1477 functions.php:1493
+msgid "Select a Category"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1429 functions.php:1465 functions.php:1505 functions.php:1533
+msgid "Number of posts"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1445
+msgid "Select a Period"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1453
+msgid "Month"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1521
+msgid "Select Categories"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1575
+msgid "Recent Posts"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1579
+msgid "Popular Posts"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1583
+msgid "Recent Reviews"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1587
+msgid "Recent Posts ( Several categories )"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1669
+msgid "Delete this module"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1701
+msgid "Settings saved."
+msgstr ""
+
+# @ Nexus
+#: functions.php:1725
+msgid "Homepage Builder"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1731
+msgid "Add Recent Posts"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1733
+msgid "Add Popular Posts"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1735
+msgid "Add Recent Reviews"
+msgstr ""
+
+# @ Nexus
+#: functions.php:1737
+msgid "Add Recent Posts From Several Categories"
+msgstr ""
+
+# @ Nexus
+#: epanel/custom_functions.php:434 header.php:112 includes/breadcrumbs.php:13
+msgid "Home"
+msgstr ""
+
+# @ Nexus
+#: header.php:68
+msgid "Follow us on Twitter"
+msgstr "Siga-nos no twitter"
+
+# @ Nexus
+#: header.php:75
+msgid "Follow us on Facebook"
+msgstr "Siga-nos no facebook"
+
+# @ Nexus
+#: header.php:84
+msgid "Subscribe To Rss Feed"
+msgstr "Assine nosso feed"
+
+# @ Nexus
+#: header.php:92
+msgid "Follow Us On Google+"
+msgstr ""
+
+# @ Nexus
+#: image.php:57
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+# @ Nexus
+#: image.php:58
+msgid "Next &rarr;"
+msgstr "Próximo &rarr;"
+
+# @ Nexus
+#: image.php:63 page-assista-2.php:28 page-blog.php:40 page-contact.php:79
+#: page-fale.php:22 page-full-o-que.php:31 page-full-op.php:32 page-full.php:32
+#: page-gallery.php:38 page-login.php:81 page-search.php:44 page-sitemap.php:87
+#: page-template-portfolio.php:65 page.php:39 single-full.php:46
+#: single-operacoes.php:45
+msgid "Pages:"
+msgstr ""
+
+# @ Nexus
+#: index.php:33
+msgid "Read More"
+msgstr "Leia Mais"
+
+# @ Nexus
+#: page-blog.php:53
+msgid "by"
+msgstr "por"
+
+# @ Nexus
+#: page-blog.php:72 page-blog.php:82
+msgid "read more"
+msgstr "Leia mais"
+
+# @ Nexus
+#: page-contact.php:15
+msgid "Make sure you entered the captcha. "
+msgstr "Certifique-se de ter digitado o captcha corretamente"
+
+# @ Nexus
+#: page-contact.php:18
+msgid "Numbers regenerated."
+msgstr ""
+
+# @ Nexus
+#: page-contact.php:19
+msgid "You entered the wrong number in captcha. "
+msgstr "Voce digitou o número errado no captcha"
+
+# @ Nexus
+#: page-contact.php:26
+msgid "Make sure you fill all fields. "
+msgstr "Preencha todos os campos"
+
+# @ Nexus
+#: page-contact.php:30
+msgid "Invalid Email. "
+msgstr "Email Inválido"
+
+# @ Nexus
+#: page-contact.php:50
+msgid "Thanks for contacting us"
+msgstr "Obrigado pelo contato"
+
+# @ Nexus
+#: page-contact.php:87 page-contact.php:88
+msgid "Name"
+msgstr "Nome"
+
+# @ Nexus
+#: page-contact.php:91 page-contact.php:92
+msgid "Email Address"
+msgstr "Email"
+
+# @ Nexus
+#: page-contact.php:95 page-contact.php:96
+msgid "Subject"
+msgstr "Assunto"
+
+# @ Nexus
+#: page-contact.php:102
+msgid "Captcha: "
+msgstr ""
+
+# @ Nexus
+#: page-contact.php:111 page-contact.php:112
+msgid "Message"
+msgstr "mensagem"
+
+# @ Nexus
+#: epanel/core_functions.php:203 epanel/core_functions.php:377
+#: page-contact.php:115
+msgid "Reset"
+msgstr "Reset"
+
+# @ Nexus
+#: page-contact.php:116 page-search.php:82
+msgid "Submit"
+msgstr "Enviar"
+
+# @ Nexus
+#: page-gallery.php:64
+msgid "Zoom in"
+msgstr ""
+
+# @ Nexus
+#: includes/featured.php:165 page-gallery.php:65
+msgid "Read more"
+msgstr "LeiaMais"
+
+# @ Nexus
+#: page-login.php:99
+msgid "Username"
+msgstr "Nome de usuário"
+
+# @ Nexus
+#: page-login.php:101
+msgid "Password"
+msgstr "Senha"
+
+# @ Nexus
+#: page-search.php:48
+msgid "search this website"
+msgstr ""
+
+# @ Nexus
+#: page-search.php:51
+msgid "search this site..."
+msgstr ""
+
+# @ Nexus
+#: page-search.php:53
+msgid "Posts"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:299 page-search.php:54 page-sitemap.php:97
+msgid "Pages"
+msgstr ""
+
+# @ Nexus
+#: page-search.php:57
+msgid "Select a month"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:304 page-sitemap.php:107
+msgid "Categories"
+msgstr ""
+
+# @ Nexus
+#: page-sitemap.php:117
+msgid "Tags"
+msgstr ""
+
+# @ Nexus
+#: page-sitemap.php:149
+msgid "Authors"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:26 epanel/core_functions.php:389
+msgid "Saving..."
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:27
+msgid "Options Saved."
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:73
+msgid "Options"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:73
+msgid "Theme Options"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:90
+msgid "settings saved."
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:93
+msgid "settings reset."
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:111 epanel/options_nexus.php:309
+#: epanel/options_nexus.php:460
+msgid "General Settings"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:114
+msgid "Navigation"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:117
+msgid "Layout Settings"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:120
+msgid "Ad Management"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:123
+msgid "Colorization"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:126
+msgid "SEO"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:129
+msgid "Integration"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:132
+msgid "Support Docs"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:229
+msgid "You don't have pages"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:362
+msgid "Save changes"
+msgstr ""
+
+# @ Nexus
+#: epanel/core_functions.php:373
+msgid "This will return all of the settings throughout the options page to their default values. <strong>Are you sure you want to do this?"
+msgstr ""
+
+# @ default
+#: epanel/custom_functions.php:858
+msgid "Image doesn't exist"
+msgstr ""
+
+# @ Nexus
+#: epanel/custom_functions.php:1054
+#, php-format
+msgid "<div class=\"updated\"><p>This is a fresh installation of %1$s theme. Don't forget to go to <a href=\"%2$s\">ePanel</a> to set it up. This message will disappear once you have clicked the Save button within the <a href=\"%2$s\">theme's options page</a>.</p></div>"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:38
+msgid "General"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:42
+msgid "Homepage"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:46
+msgid "Featured Posts"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:53
+msgid "Logo"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:57
+msgid "If you would like to use your own custom logo image click the Upload Image button."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:60
+msgid "Favicon"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:64
+msgid "If you would like to use your own custom favicon image click the Upload Image button."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:67
+msgid "Header Section Custom Background"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:71
+msgid "If you would like to use your own background image for the Header section click the Upload Image button."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:74
+msgid "Grab the first post image"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:78
+msgid "By default thumbnail images are created using custom fields. However, if you would rather use the images that are already in your post for your thumbnail (and bypass using custom fields) you can activate this option. Once activcated thumbnail images will be generated automatically using the first image in your post. The image must be hosted on your own server."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:81
+msgid "Blog Style Mode"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:85
+msgid "By default the theme truncates your posts on index/homepages automatically to create post previews. If you would rather show your posts in full on index pages like a traditional blog then you can activate this feature."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:154
+msgid "Number of Posts displayed on Category page"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:158
+msgid "Here you can designate how many recent articles are displayed on the Category page. This option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:162
+msgid "Number of Posts displayed on Archive pages"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:166
+msgid "Here you can designate how many recent articles are displayed on the Archive pages. This option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:170
+msgid "Number of Posts displayed on Search pages"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:174
+msgid "Here you can designate how many recent articles are displayed on the Search results pages. This option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:178
+msgid "Number of Posts displayed on Tag pages"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:182
+msgid "Here you can designate how many recent articles are displayed on the Tag pages. This option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:186
+msgid "Date format"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:190
+msgid "This option allows you to change how your dates are displayed. For more information please refer to the WordPress codex here:<a href='http://codex.wordpress.org/Formatting_Date_and_Time' target='_blank'>Formatting Date and Time</a>"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:196
+msgid "Use excerpts when defined"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:200
+msgid "This will enable the use of excerpts in posts or pages."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:203
+msgid "Responsive shortcodes"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:207
+msgid "Enable this option to make shortcodes respond to various screen sizes"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:212
+msgid "Google Fonts subsets"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:216
+msgid "This will enable Google Fonts for Non-English languages."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:221
+msgid "Custom CSS"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:225
+msgid "Here you can add custom css to override or extend default styles."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:235
+msgid "Display 3 Columns on Homepage"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:239
+msgid "This will enable 3 column layout on homepage."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:244
+msgid "Number of Posts displayed on homepage in Blog Style Mode"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:248
+msgid "Here you can designate how many recent articles are displayed on the homepage, if the Blog Style Mode option is activated. This option works independently from the Settings > Reading options in wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:252
+msgid "Exclude categories from homepage recent posts in Blog Style Mode"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:256
+msgid "By default the homepage displays a list of all of your most recent posts, if the Blog Style Mode option is activated. However, if you would like to exlcude certain category from the list you can do so here. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:267
+msgid "Display Featured Posts"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:271
+msgid "You can choose whether or not to display the Featured Articles section on the homepage. If you don't want to utilize this feature simply disable this option."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:276
+msgid "Featured Posts Category"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:317
+msgid "Exclude pages from the navigation bar"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:321
+msgid "Here you can choose to remove certain pages from the navigation menu. All pages marked with an X will not appear in your navigation bar. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:325 epanel/options_nexus.php:380
+msgid "Show dropdown menus"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:329
+msgid "If you would like to remove the dropdown menus from the pages navigation bar disable this feature."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:332
+msgid "Display Home link"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:336
+msgid "By default the theme creates a Home link that, when clicked, leads back to your blog's homepage. If, however, you are using a static homepage and have already created a page called Home to use, this will result in a duplicate link. In this case you should disable this feature to remove the link."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:341
+msgid "Sort Pages Links"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:345
+msgid "Here you can choose to sort your pages links."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:348
+msgid "Order Pages Links by Ascending/Descending"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:352
+msgid "Here you can choose to reverse the order that your pages links are displayed. You can choose between ascending and descending."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:355 epanel/options_nexus.php:396
+msgid "Number of dropdown tiers shown"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:359 epanel/options_nexus.php:400
+msgid "This options allows you to control how many teirs your pages dropdown menu has. Increasing the number allows for additional menu items to be shown."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:372
+msgid "Exclude categories from the navigation bar"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:376
+msgid "Here you can choose to remove certain categories from the navigation menu. All categories marked with an X will not appear in your navigation bar. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:384
+msgid "If you would like to remove the dropdown menus from the categories navigation bar disable this feature."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:387
+msgid "Hide empty categories"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:391
+msgid "If you would like categories to be displayed in your navigationbar that don't have any posts in them then disable this option. By default empty categories are hidden"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:406
+msgid "Sort Categories Links by Name/ID/Slug/Count/Term Group"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:410
+msgid "By default pages are sorted by name. However if you would rather have them sorted by ID you can adjust this setting."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:413
+msgid "Order Category Links by Ascending/Descending"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:417
+msgid "Here you can choose to reverse the order that your categories links are displayed. You can choose between ascending and descending."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:426
+msgid "Disable top tier dropdown menu links"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:430
+msgid "In some cases users will want to create parent categories or links as placeholders to hold a list of child links or categories. In this case it is not desirable to have the parent links lead anywhere, but instead merely serve an organizational function. Enabling this options will remove the links from all parent pages/categories so that they don't lead anywhere when clicked."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:450
+msgid "Single Post Layout"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:455
+msgid "Single Page Layout"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:468
+msgid "Choose which items to display in the postinfo section"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:472
+msgid "Here you can choose which items appear in the postinfo section on single post pages. This is the area, usually below the post title, which displays basic information about your post. The highlighted itmes shown below will appear. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:476
+msgid "Show comments on posts"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:480
+msgid "You can disable this option if you want to remove the comments and comment form from single post pages. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:491
+msgid "Show comments on pages"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:495
+msgid "By default comments are not placed on pages, however, if you would like to allow people to comment on your pages simply enable this option. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:506
+msgid "Post info section"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:510
+msgid "Here you can choose which items appear in the postinfo section on pages. This is the area, usually below the post title, which displays basic information about your post. The highlighted itmes shown below will appear. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:529
+msgid "Homepage SEO"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:534
+msgid "Single Post Page SEO"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:539
+msgid "Index Page SEO"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:547
+msgid " Enable custom title "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:551
+msgid "By default the theme uses a combination of your blog name and your blog description, as defined when you created your blog, to create your homepage titles. However if you want to create a custom title then simply enable this option and fill in the custom title field below. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:554
+msgid " Enable meta description"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:558
+msgid "By default the theme uses your blog description, as defined when you created your blog, to fill in the meta description field. If you would like to use a different description then enable this option and fill in the custom description field below. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:561
+msgid " Enable meta keywords"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:565
+msgid "By default the theme does not add keywords to your header. Most search engines don't use keywords to rank your site anymore, but some people define them anyway just in case. If you want to add meta keywords to your header then enable this option and fill in the custom keywords field below. "
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:568 epanel/options_nexus.php:701
+msgid " Enable canonical URL's"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:572
+msgid "Canonicalization helps to prevent the indexing of duplicate content by search engines, and as a result, may help avoid duplicate content penalties and pagerank degradation. Some pages may have different URLs all leading to the same place. For example domain.com, domain.com/index.html, and www.domain.com are all different URLs leading to your homepage. From a search engine's perspective these duplicate URLs, which also occur often due to custom permalinks, may be treaded individually instead of as a single destination. Defining a canonical URL tells the search engine which URL you would like to use officially. The theme bases its canonical URLs off your permalinks and the domain name defined in the settings tab of wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:577
+msgid "Homepage custom title (if enabled)"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:581
+msgid "If you have enabled custom titles you can add your custom title here. Whatever you type here will be placed between the < title >< /title > tags in header.php"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:585
+msgid "Homepage meta description (if enabled)"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:589
+msgid "If you have enabled meta descriptions you can add your custom description here."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:593
+msgid "Homepage meta keywords (if enabled)"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:597
+msgid "If you have enabled meta keywords you can add your custom keywords here. Keywords should be separated by comas. For example: wordpress,themes,templates,elegant"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:601 epanel/options_nexus.php:679
+msgid "If custom titles are disabled, choose autogeneration method"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:606
+msgid "If you are not using cutsom post titles you can still have control over how your titles are generated. Here you can choose which order you would like your post title and blog name to be displayed, or you can remove the blog name from the title completely."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:609 epanel/options_nexus.php:687
+#: epanel/options_nexus.php:725
+msgid "Define a character to separate BlogName and Post title"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:613 epanel/options_nexus.php:691
+msgid "Here you can change which character separates your blog title and post name when using autogenerated post titles. Common values are | or -"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:623
+msgid "Enable custom titles"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:627
+msgid "By default the theme creates post titles based on the title of your post and your blog name. If you would like to make your meta title different than your actual post title you can define a custom title for each post using custom fields. This option must be enabled for custom titles to work, and you must choose a custom field name for your title below."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:630
+msgid "Enable custom description"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:634
+msgid "If you would like to add a meta description to your post you can do so using custom fields. This option must be enabled for descriptions to be displayed on post pages. You can add your meta description using custom fields based off the custom field name you define below."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:639
+msgid "Enable custom keywords"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:643
+msgid "If you would like to add meta keywords to your post you can do so using custom fields. This option must be enabled for keywords to be displayed on post pages. You can add your meta keywords using custom fields based off the custom field name you define below."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:646
+msgid "Enable canonical URL's"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:650 epanel/options_nexus.php:705
+msgid "Canonicalization helps to prevent the indexing of duplicate content by search engines, and as a result, may help avoid duplicate content penalties and pagerank degradation. Some pages may have different URL's all leading to the same place. For example domain.com, domain.com/index.html, and www.domain.com are all different URLs leading to your homepage. From a search engine's perspective these duplicate URLs, which also occur often due to custom permalinks, may be treaded individually instead of as a single destination. Defining a canonical URL tells the search engine which URL you would like to use officially. The theme bases its canonical URLs off your permalinks and the domain name defined in the settings tab of wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:655
+msgid "Custom field Name to be used for title"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:659
+msgid "When you define your title using custom fields you should use this value for the custom field Name. The Value of your custom field should be the custom title you would like to use."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:663
+msgid "Custom field Name to be used for description"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:667
+msgid "When you define your meta description using custom fields you should use this value for the custom field Name. The Value of your custom field should be the custom description you would like to use."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:671
+msgid "Custom field Name to be used for keywords"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:675
+msgid "When you define your keywords using custom fields you should use this value for the custom field Name. The Value of your custom field should be the meta keywords you would like to use, separated by comas."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:684
+msgid "If you are not using cutsom post titles you can still have control over hw your titles are generated. Here you can choose which order you would like your post title and blog name to be displayed, or you can remove the blog name from the title completely."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:708
+msgid "Enable meta descriptions"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:712
+msgid "Check this box if you want to display meta descriptions on category/archive pages. The description is based off the category description you choose when creating/edit your category in wp-admin."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:717
+msgid "Choose title autogeneration method"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:722
+msgid "Here you can choose how your titles on index pages are generated. You can change which order your blog name and index title are displayed, or you can remove the blog name from the title completely."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:729
+msgid "Here you can change which character separates your blog title and index page name when using autogenerated post titles. Common values are | or -"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:750
+msgid "Code Integration"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:758
+msgid "Enable header code"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:762
+msgid "Disabling this option will remove the header code below from your blog. This allows you to remove the code while saving it for later use."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:765
+msgid "Enable body code"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:769
+msgid "Disabling this option will remove the body code below from your blog. This allows you to remove the code while saving it for later use."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:774
+msgid "Enable single top code"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:778
+msgid "Disabling this option will remove the single top code below from your blog. This allows you to remove the code while saving it for later use."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:781
+msgid "Enable single bottom code"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:785
+msgid "Disabling this option will remove the single bottom code below from your blog. This allows you to remove the code while saving it for later use."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:790
+msgid "Add code to the < head > of your blog"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:794
+msgid "Any code you place here will appear in the head section of every page of your blog. This is useful when you need to add javascript or css to all pages."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:797
+msgid "Add code to the < body > (good for tracking codes such as google analytics)"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:801
+msgid "Any code you place here will appear in body section of all pages of your blog. This is usefull if you need to input a tracking pixel for a state counter such as Google Analytics."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:804
+msgid "Add code to the top of your posts"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:808 epanel/options_nexus.php:815
+msgid "Any code you place here will be placed at the top of all single posts. This is useful if you are looking to integrating things such as social bookmarking links."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:811
+msgid "Add code to the bottom of your posts, before the comments"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:833
+msgid "Documentation"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:859
+msgid "Manage Un-widgetized Advertisements"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:867
+msgid "Enable 728x90 banner in Header"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:871
+msgid "Enabling this option will display a 728x90 banner ad in the header. If enabled you must fill in the banner image and destination url below."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:874
+msgid "Enable Single Post 468x60 banner"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:878
+msgid "Enabling this option will display a 468x60 banner ad on the bottom of your post pages below the single post content. If enabled you must fill in the banner image and destination url below."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:883
+msgid "Enable 970x90 banner in Footer"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:887
+msgid "Enabling this option will display a 970x90 banner ad in the footer. If enabled you must fill in the banner image and destination url below."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:892
+msgid "Input 728x90 header banner image url"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:896
+msgid "Here you can provide 728x90 image url for the header banner."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:900
+msgid "Input 728x90 header banner image description"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:904
+msgid "Here you can provide 728x90 header banner description."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:908
+msgid "Input 728x90 header banner destination url"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:912
+msgid "Here you can provide 728x90 image destination url for the header banner."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:916
+msgid "Input 970x90 footer banner image url"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:920
+msgid "Here you can provide 970x90 image url for the footer banner."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:924
+msgid "Input 970x90 footer banner image description"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:928
+msgid "Here you can provide 970x90 footer banner description."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:932
+msgid "Input 970x90 footer banner destination url"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:936
+msgid "Here you can provide 970x90 image destination url for the footer banner."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:940
+msgid "Input 468x60 advertisement banner image"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:944
+msgid "Here you can provide 468x60 banner image url"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:948
+msgid "Input 468x60 advertisement destination url"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:952
+msgid "Here you can provide 468x60 banner destination url"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:956
+msgid "Input 468x60 adsense code"
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:960
+msgid "Place your adsense code here."
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:22
+msgid "Captcha"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:22
+msgid "Fill"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:22
+msgid "field"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:22
+msgid "Invalid email"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:37
+msgid "ET Page Template Settings"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:64
+msgid "Additional settings appear here, when one of ET page templates is selected ( Page Attributes -> Template )"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:69
+msgid "Full Width Page"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:74
+msgid "Regenerate captcha numbers"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:78
+msgid "Email To:"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:84
+msgid "Blog Style mode"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:89
+msgid "Hide Auto Thumbnail"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:94
+msgid "Show Titles"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:99
+msgid "Show Descriptions"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:104
+msgid "Detect Portrait Images"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:108
+msgid "Thumbnail Size:"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:109
+msgid "Small"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:110
+msgid "Medium"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:111
+msgid "Large"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:115
+#: epanel/page_templates/page_templates.php:120
+msgid "Number of posts per page:"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:125
+msgid "Select blog categories:"
+msgstr ""
+
+# @ Nexus
+#: epanel/page_templates/page_templates.php:144
+msgid "Select gallery categories:"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:302
+msgid "Member Login"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:305
+msgid "Username: "
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:306
+msgid "Password: "
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:307
+msgid "Login"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:343
+msgid "Add a Tooltip Text"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:365
+msgid "Click here to learn more"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:975
+msgid "Caption"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:976
+msgid "Caption goes here"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:977
+msgid "Caption title goes here"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:981
+msgid "State"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:983
+msgid "Select between expanded and closed state"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:988 epanel/shortcodes/shortcodes.php:1004
+#: epanel/shortcodes/shortcodes.php:1033 epanel/shortcodes/shortcodes.php:1113
+msgid "Content"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:989 epanel/shortcodes/shortcodes.php:1005
+#: epanel/shortcodes/shortcodes.php:1091 epanel/shortcodes/shortcodes.php:1114
+msgid "Content goes here"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:990 epanel/shortcodes/shortcodes.php:1006
+#: epanel/shortcodes/shortcodes.php:1035
+msgid "Content text or html"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:997 epanel/shortcodes/shortcodes.php:1019
+msgid "Type"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:999
+msgid "Type of the box"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1013
+msgid "Link"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1015
+msgid "URL"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1021
+msgid "Choose button type"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1026
+msgid "Color"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1028
+msgid "Choose button color"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1034
+msgid "Link text"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1039
+msgid "Icon"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1041
+msgid "Used for icon button type"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1046
+msgid "Open link in new window"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1048
+msgid "Select yes if the link should be opened in a new window"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1056
+msgid "Slider Type"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1058
+msgid "Select Slider Type here"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1063
+msgid "Effect"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1065
+msgid "Select Animation Effect"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1070
+msgid "Auto"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1072
+msgid "Choose yes if you want for automatic slider animation"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1077
+msgid "Auto Speed"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1079
+msgid "Automattic slider speed (works only if Auto is set to yes)"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1083
+msgid "Tab Text"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1090
+msgid "Tab Content"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1092
+msgid "Paste image url here, if you chose \"images\" slider type"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1100
+msgid "Image Url"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1102
+msgid "Author Image URL"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1106
+msgid "Use resizing"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1183
+msgid "+ Add One More Tab"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1333
+msgid "Image Height"
+msgstr ""
+
+# @ Nexus
+#: epanel/shortcodes/shortcodes.php:1334
+msgid "Image Width"
+msgstr ""
+
+# @ Nexus
+#: includes/breadcrumbs.php:16
+msgid "Posts Tagged "
+msgstr ""
+
+# @ Nexus
+#: includes/breadcrumbs.php:18 includes/breadcrumbs.php:20
+#: includes/breadcrumbs.php:22
+msgid "Posts made in"
+msgstr ""
+
+# @ Nexus
+#: includes/breadcrumbs.php:24
+msgid "Search results for"
+msgstr ""
+
+# @ Nexus
+#: includes/breadcrumbs.php:59
+msgid "Posts by "
+msgstr "Posts por"
+
+# @ Nexus
+#: includes/featured.php:141
+#, php-format
+msgid "Posted by %s on %s"
+msgstr "Postado por %s em %s"
+
+# @ Nexus
+#: includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr "&laquo; mais antigas"
+
+# @ Nexus
+#: includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr "Próximas &raquo;"
+
+# @ Nexus
+#: includes/no-results.php:3
+msgid "No Results Found"
+msgstr "Sem resultados"
+
+# @ Nexus
+#: includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr ""
+
+# @ Nexus
+#: includes/reviews_module.php:10
+#, php-format
+msgid "<span>%s</span>Posted by %s in %s"
+msgstr ""
+
+# @ Nexus
+#. translators: 1: date, 2: time
+#: includes/functions/comments.php:16
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+# @ Nexus
+#: includes/functions/comments.php:19
+msgid "(Edit)"
+msgstr ""
+
+# @ Nexus
+#: includes/functions/comments.php:23
+msgid "Post a Reply"
+msgstr "Responder"
+
+# @ Nexus
+#: includes/functions/comments.php:32
+msgid "Your comment is awaiting moderation."
+msgstr "Seu comentário está aguardando aprovação pelos moderadores"
+
+# @ Nexus
+#: includes/functions/installation.php:1
+msgid "Read Nexus Documentation"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-centered-ad.php:4
+msgid "Displays Centered Advertisement"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-centered-ad.php:6
+msgid "ET Centered Ad"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-centered-ad.php:12
+msgid "Adverisiment"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-centered-ad.php:48
+msgid "Advertisement"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-recent-videos.php:4
+msgid "Displays Recent Videos"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-recent-videos.php:12
+#: includes/widgets/widget-recent-videos.php:91
+#: includes/widgets/widget-test.php:13
+msgid "Recent Videos"
+msgstr "Videos Recentes"
+
+# @ Nexus
+#: includes/widgets/widget-recent.php:7
+msgid "Displays recent posts"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-recent.php:11
+msgid "ET Recent Posts Widget"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-recent.php:35
+#, php-format
+msgid "Recent From <span>%s</span>"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-tabbed.php:4
+msgid "Displays recent, popular, random posts"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-tabbed.php:6
+msgid "ET Tabbed Widget"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-tabbed.php:19
+msgid "Recent"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-tabbed.php:20
+msgid "Popular"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-tabbed.php:21
+msgid "Random"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-top-authors.php:4
+msgid "Displays Top Authors"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-top-authors.php:6
+msgid "ET Top Authors"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-top-authors.php:14
+#: includes/widgets/widget-top-authors.php:64
+msgid "Our Top Authors"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-top-authors.php:42
+#, php-format
+msgid "%s Posts"
+msgstr ""
+
+# @ Nexus
+#: comments.php:56
+msgid "Enviar"
+msgstr ""
+
+# @ Nexus
+#: comments.php:56
+msgid "Responder"
+msgstr ""
+
+# @ Nexus
+#: epanel/custom_functions.php:1066
+#, php-format
+msgid "There is a new version of %1$s available. <a href=\"%2$s\" class=\"thickbox\" title=\"%1$s\">View version %3$s details</a>. <em>Before you can update your Elegant Themes, you must first install the <a href=\"https://www.elegantthemes.com/members-area/documentation.html#updater\" target=\"_blank\">Elegant Updater Plugin</a> to authenticate your subscription.</em>"
+msgstr ""
+
+# @ Nexus
+#: epanel/custom_functions.php:1070
+msgid "Before you can update your Elegant Themes, you must first install the <a href=\"https://www.elegantthemes.com/members-area/documentation.html#updater\" target=\"_blank\">Elegant Updater Plugin</a> to authenticate your subscription."
+msgstr ""
+
+# @ Nexus
+#: epanel/options_nexus.php:280
+msgid "Here you can choose which category to be used to populate the Featured Posts on the homepage."
+msgstr ""
+
+# @ Nexus
+#: front-page.php:33
+#, php-format
+msgid "<span>%s</span>"
+msgstr ""
+
+# @ Nexus
+#: front-page.php:255
+#, php-format
+msgid "em <span>%s</span>"
+msgstr ""
+
+# @ Nexus
+#: functions.php:101
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+# @ Nexus
+#: functions.php:113
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+# @ Nexus
+#: functions.php:211 functions.php:255
+msgid "Menu"
+msgstr ""
+
+# @ Nexus
+#: functions.php:731
+msgid "Accent Color"
+msgstr ""
+
+# @ Nexus
+#: functions.php:879
+msgid "Orange"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-recent-videos.php:6
+msgid "Videos Recentes"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-test.php:4
+msgid "AAAAAAAAAA"
+msgstr ""
+
+# @ Nexus
+#: includes/widgets/widget-test.php:6
+msgid "AAAAAAAAAAAAAAAAA"
+msgstr ""
