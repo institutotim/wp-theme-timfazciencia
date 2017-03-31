@@ -25,7 +25,7 @@ Template Name: Conheça as 7 operaçoes
 	$video5 = '28';
 ?>
 
-<div class="image-header"><img src="<?php echo $cfs->get('header_image') ?>" alt=""></div> 
+<!-- <div class="image-header"><img src="<?php echo $cfs->get('header_image') ?>" alt=""></div>  -->
 
 <div class="page-wrap container fullwidth">
 	<div id="main-content">

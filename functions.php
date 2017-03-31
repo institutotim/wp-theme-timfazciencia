@@ -1,7 +1,15 @@
 <?php
 
+register_nav_menus( array(
+            'header-1' => __( 'Header Menu 1', 'Nexus' ),
+	    'footer-1' => __( 'Footer Menu 1', 'Nexus' ),
+	    'footer-2' => __( 'Footer Menu 2', 'Nexus' ),
+	    'footer-3' => __( 'Footer Menu 3', 'Nexus' ),
+	    'footer-4' => __( 'Footer Menu 4', 'Nexus' ),
+) );
 
 
+        
 if ( ! isset( $content_width ) ) $content_width = 838;
 
 

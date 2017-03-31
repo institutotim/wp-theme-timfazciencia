@@ -16,6 +16,7 @@ Author URI: http://www.elegantthemes.com
 
 
 
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -46,6 +47,18 @@ article, aside, footer, header, hgroup, nav, section { display: block; }
 /*------------------------------------------------*/
 /*-------------------[FONT-FACE]------------------*/
 /*------------------------------------------------*/
+
+/*@import 'css/fonttim.css';*/
+
+@font-face {
+  font-family: 'TIMSansWeb';
+  src: url('fonts/Medium/TIMSansWeb-Medium.eot'); /* IE9 Compat Modes */
+  src: url('fonts/Medium/TIMSansWeb-Medium.svg#TIMSansWeb') format('svg'), /* Legacy iOS */
+       url('fonts/Medium/TIMSansWeb-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/Medium/TIMSansWeb-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/Medium/TIMSansWeb-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+       url('fonts/Medium/TIMSans-Medium.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
 
 @font-face {
     font-family: 'peachmilk';
