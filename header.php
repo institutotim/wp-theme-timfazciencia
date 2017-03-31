@@ -84,10 +84,10 @@
 .rede-social {display:none}
 .nav-e {padding-bottom:10px;padding-top:35px}
 .nav-i {margin-top:5px}
-.logo2 {float:right;width:200px;height:22px;margin-top:-20px;padding:0}
-.logo2 img {width:160px}
-.logo-project img {width:71px}
-.logo-project {width:100px;float:left;margin-top:7px;padding-left:10px}
+.logo2 {float:right;width:200px;height:22px;margin-top:-20px;padding:0;z-index:99999}
+.logo2 img {width:160px;z-index:99999}
+.logo-project img {width:71px;z-index:99999}
+.logo-project {width:100px;float:left;margin-top:7px;padding-left:10px;z-index:99999}
 
 
 .footer-links a {color: #ffffff;padding-top: 5px;line-height: 20px;text-decoration: none;}
@@ -134,7 +134,7 @@
 .box-it {float:left}
 .box-it li a {font-size:9pt;padding:3px}
 .logo2 {width:158px;float:left;margin-top:-5px;padding-right:5px}
-.logo-project {width:60px;float:left;padding-left:5px;padding-top:24px;margin-top:0;height:35px}
+.logo-project {width:60px;float:left;padding-left:5px;padding-top:24px;margin-top:0;height:35px;z-index:99999}
 .footerborder-left {border-image: linear-gradient(to right, rgba(24, 86, 154, 1), rgba(1, 60, 125, 1)) 1 100% 1 100%;border-style: solid;border-width: 3px 0 3px 3px;height: 150px;}
 
 /*pro TIMFazCiencia*/
@@ -182,8 +182,8 @@ ul.rede-social  {list-style: none;}
 .search2 {margin-left:0}
 
 /*pro TIMFazCiencia*/
-.logo-project img {width:112px}
-.logo-project {width:112px;padding-left:10px;padding-top:24px;margin-top:0;height:35px}
+.logo-project img {width:112px;z-index:99999}
+.logo-project {width:112px;padding-left:10px;padding-top:24px;margin-top:0;height:35px;z-index:99999}
 .box-it h2 {font-size:16px}
 .box-sz2 ul, .box-sz2 li {margin:0; padding:0}
 .box-sz1 {width:136px}
