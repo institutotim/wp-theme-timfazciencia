@@ -229,7 +229,9 @@ ul.rede-social  {list-style: none;}
                                                             </form>
                                                     </div>
                                         </div>
-                                        <div class="rede-social">
+
+<!----
+                                          <div class="rede-social">
 						  <ul>
 						  <li><a href="https://www.facebook.com/TIMFazCiencia/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 						  <li><a href="https://www.youtube.com/channel/UCWnd3qxdHRziiDG_yJfU1hQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
@@ -237,6 +239,8 @@ ul.rede-social  {list-style: none;}
 						  <li><a href="https://www.flickr.com/photos/128197418@N02/albums" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
 						  </ul>
                                           </div>
+--->
+
                                 </div>
 				<div class="nav-it">
 					<?php wp_nav_menu( array( 'theme_location' => 'header-1' ) ); ?>
