@@ -313,7 +313,50 @@
         margin-left: 5px
     }
 }
-@media only screen and (min-width: 480px) {} @media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {} @media only screen and (min-width: 600px) {
+    #searchbox {
+        width: 280px;
+        position: relative;
+        margin-top: 5px;
+        padding: 8px;
+
+    }
+    #searchbox input {
+        outline: none
+    }
+    #searchbox input:focus::-webkit-input-placeholder {
+        color: transparent
+    }
+    #searchbox input:focus:-moz-placeholder {
+        color: transparent;
+    }
+    #searchbox input:focus::-moz-placeholder {
+        color: transparent
+    }
+    #searchbox input[type="search"] {
+        background-color: #fff;
+        border: 0px;
+        font-size: 12px;
+        color: #666;
+        width: 260px;
+        border: 1px solid #fff;
+        border-radius: 4px;
+        font-size: 12px;
+        z-index: -1;
+        height: 31px;
+        padding:8px;
+    }
+    #button-submit {
+        background: url(<?php echo get_template_directory_uri();
+        ?>/imagens/searchicon.png) no-repeat;
+        margin-left: -32px;
+        border-width: 0px;
+        width: 21px;
+        height: 21px;
+    }
+    #button-submit:hover {
+        cursor: pointer;
+    }
     .container-2 {
         width: 768px;
         margin: 0 auto
@@ -583,28 +626,14 @@
 			</div>
 
 			<div class="nav-f">
-                                <div class="nav-i">
-                                        <div class="nav-e">
-                                                    <div class="search2">
-                                                            <form role="search" method="get" action="<?php echo home_url( '/' ); ?>">
-                                                                    <input type="search" class="search2" placeholder="O que você procura?" value="" name="s" title="O que você procura?" />
-                                                                    <span class="icon"><i class="fa fa-search"></i></span>
-                                                            </form>
-                                                    </div>
-                                        </div>
-
-<!----
-                                          <div class="rede-social">
-						  <ul>
-						  <li><a href="https://www.facebook.com/TIMFazCiencia/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-						  <li><a href="https://www.youtube.com/channel/UCWnd3qxdHRziiDG_yJfU1hQ" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
-						  <li><a href="https://www.flickr.com/photos/121406068@N03/albums" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-						  <li><a href="https://www.flickr.com/photos/128197418@N02/albums" target="_blank"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
-						  </ul>
-                                          </div>
---->
-
-                                </div>
+                <div class="nav-i">
+                    <div class="nav-e">
+                        <form id="searchbox" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
+                            <input type="search" placeholder="O que você procura?" value="" name="s" title="O que você procura?" />
+                            <input id="button-submit" type="submit" value=" "/>
+                        </form>
+                    </div>
+                </div>
 				<div class="nav-it">
 					<?php wp_nav_menu( array( 'theme_location' => 'header-1' ) ); ?>
 				</div>
@@ -612,5 +641,3 @@
 		</div>
 	</div>
 </div>
-
-
