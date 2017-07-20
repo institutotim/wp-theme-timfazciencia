@@ -111,14 +111,7 @@
 .fa {
     color: #fff
 }
-/*
-#mega-menu-wrap-footer-1, #mega-menu-wrap-header-1 {border-top:1px solid #00a4e4;margin-top:-5px}
-#mega-menu-wrap-footer-1 #mega-menu-footer-1 > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item a.mega-menu-link {background: #428bca none repeat scroll 0 0;color:#fff}
-#mega-menu-wrap-footer-1, #mega-menu-wrap-footer-1 #mega-menu-footer-1, #mega-menu-wrap-footer-1 #mega-menu-footer-1 ul.mega-sub-menu, #mega-menu-wrap-footer-1 #mega-menu-footer-1 li.mega-menu-item, #mega-menu-wrap-footer-1 #mega-menu-footer-1 a.mega-menu-link {background-color:#004691 !important}
-#mega-menu-wrap-footer-1 #mega-menu-footer-1 > li.mega-menu-item > a.mega-menu-link,
-#mega-menu-wrap-footer-1 .mega-menu-toggle {background: #004691 none repeat scroll 0 0;}
-#mega-menu-wrap-footer-1 #mega-menu-footer-1 > li.mega-menu-item > a.mega-menu-link:hover {background-color:#00a4e4}
-.mega-sub-menu li a {color:#fff !important} */
+
 
 @media only screen and (min-width: 320px) {
     .container-2 {
@@ -170,7 +163,7 @@
         padding-top: 5px
     }
     .bar-secundary {
-        height: 125px
+        height: 56px
     }
     .box-it li a {
         color: #fff
@@ -180,13 +173,6 @@
     }
     .rede-social {
         display: none
-    }
-    .nav-e {
-        padding-bottom: 10px;
-        padding-top: 35px
-    }
-    .nav-i {
-        margin-top: 5px
     }
     .logo2 {
         float: right;
@@ -198,17 +184,6 @@
     }
     .logo2 img {
         width: 160px;
-        z-index: 99999
-    }
-    .logo-project img {
-        width: 71px;
-        z-index: 99999
-    }
-    .logo-project {
-        width: 100px;
-        float: left;
-        margin-top: 7px;
-        padding-left: 10px;
         z-index: 99999
     }
     .footer-links a {
@@ -225,12 +200,6 @@
         color: #ffffff;
         padding-top: 5px;
         line-height: 0px;
-    }
-    .menu-fixed-border-left {
-        border-color: #155ea3;
-        border-style: solid;
-        border-width: 0 2px 0 0;
-        top: 34px;
     }
     /*pro TIMFazCiencia*/
 
@@ -311,42 +280,42 @@
         margin-top: 264px;
         margin-left: 5px
     }
-    #searchbox input {
-        outline: none
+    #searchbox{
+        display: none;
     }
-    #searchbox input:focus::-webkit-input-placeholder {
-        color: transparent
-    }
-    #searchbox input:focus:-moz-placeholder {
-        color: transparent;
-    }
-    #searchbox input:focus::-moz-placeholder {
-        color: transparent
-    }
-    #searchbox input[type="text"] {
-        background-color: #fff;
-        border: 0px;
-        font-size: 12px;
-        color: #666;
-        padding: 8px;
-        width: 260px;
-        border: 1px solid #fff;
-        border-radius: 4px;
-        font-size: 12px;
-        text-indent: -140px;
-    }
-    #searchbox input[type="text"]:focus {
-        color: #000;
-        text-indent: 0px
+    #mega-menu-wrap-header-1{
+        z-index: 999999999;
     }
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (max-width: 767px){
+    #mega-menu-wrap-header-1 .mega-menu-toggle .mega-toggle-block-5:after,
+    #mega-menu-wrap-header-1 .mega-menu-toggle.mega-menu-open .mega-toggle-block-5:after{
+        content: '';
+    }
+    #mega-menu-wrap-header-1 .mega-menu-toggle.mega-menu-open .mega-toggle-block-5:before{
+        content: '\f333';
+    }
+    .logo-project, .nav-e, .menu-fixed-border-left{
+        display: none;
+    }
+    .menu-it{
+        height: 56px;
+    }
+    #mega-toggle-block-1{
+        width: 157px;
+    }
+}
+@media only screen and (min-width: 768px){
+    .nav-it {
+        padding-right: 0;
+        border-top: 1px solid #00a4e4;
+        height: 39px;
+    }
     #searchbox {
         width: 280px;
         position: relative;
-        margin-top: 5px;
-        padding: 8px;
-
+        padding: 7px 0;
+        display: block;
     }
     #searchbox input {
         outline: none
@@ -394,10 +363,9 @@
     .bar-primary,
     .bar-secundary {
         padding-left: 10px;
-        width: 768px
+        /*width: 600px*/
     }
     .nav-e {
-        padding-bottom: 10px;
         padding-top: 0px
     }
     .box-sz3 {
@@ -442,12 +410,12 @@
         height: 310px
     }
     .bar-secundary {
-        height: 104px
+        height: 88px
     }
     .nav-f {
         width: 530px;
         float: left;
-        padding-left: 0px
+        padding-left: 8px
     }
     .box-sz1 {
         width: 110px
@@ -468,8 +436,18 @@
         font-size: 12px;
         height: 36px
     }
+    .bar-primary, .bar-secundary{
+        padding-left: 0;
+        width: 768px;
+    }
 }
 @media only screen and (min-width: 960px) {
+    .bar-primary, .bar-secundary{
+        padding-left: 75px;
+    }
+    .nav-it {
+        margin-top: 18px;
+    }
     #mega-menu-wrap-header-1 #mega-menu-header-1 > li.mega-menu-item > a.mega-menu-link {
         font-size: 13px;
         height: 40px
@@ -515,7 +493,7 @@
         padding-top: 50px
     }
     .container-2 {
-        width: 1170px;
+        width: 990px;
         margin: 0 auto
     }
     .search2 {
@@ -525,9 +503,8 @@
         height: 90px
     }
     .nav-f {
-        width: 620px;
+        width: 572px;
         float: left;
-        padding-left: 70px;
         display: block;
         z-index: 1;
         height: 90px
