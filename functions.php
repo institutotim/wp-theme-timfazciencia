@@ -9,10 +9,11 @@ register_nav_menus( array(
 ) );
 
 
-        
+
 if ( ! isset( $content_width ) ) $content_width = 838;
 
 
+require_once('wp_bootstrap_navwalker.php');
 
 function et_setup_theme() {
 
@@ -208,7 +209,7 @@ function et_nexus_load_scripts_styles(){
 
 
 
-	wp_enqueue_script( 'superfish', $template_dir . '/js/superfish.js', array( 'jquery' ), '1.0', true );
+	// wp_enqueue_script( 'superfish', $template_dir . '/js/superfish.js', array( 'jquery' ), '1.0', true );
 
 
 

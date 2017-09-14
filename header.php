@@ -40,504 +40,480 @@
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #004691
+    background-color: #075aa5
 }
 .logo-it {
-    background-color: #003264;
-    border-bottom: 2px solid #82b9e6
+    background-color: #00427f;
+    border-bottom: 2px solid #82b9e6;
+    height: 27px;
+    padding-top: 3px;
 }
 .menu-it {
     background-color: #004691;
 }
+#menu-nav-it{
+    text-transform: uppercase;
+}
 .menu-fixed-bottom-left {
     left: 0;
     position: relative;
-    top: 30px;
-}
-.search2 {
-    width: 300px;
-    color: #666666;
-    height: 43px;
-    font-size: 14px;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    position: relative;
-}
-.search2 input {
-    background: #fff none repeat scroll 0 0 !important;
-    border: 1px solid #fff;
-    border-radius: 4px;
-    font-size: 9pt;
-    height: 34px;
-    width: 100%;
-}
-.search2 input {
-    text-indent: 5px;
-}
-.search2 .fa-search {
-    position: absolute;
-    right: 10px;
-    top: 42%;
 }
 .navbar-overtop-tim-en-pt a {
     color: #82b9e6;
 }
-.navbar-maintop-tim {
-    background-color: #004691;
-    color: #ffffff;
-    font-size: 12px;
-    height: 90px;
-    letter-spacing: 0;
-    padding: 0;
-}
-#mega-menu-wrap-header-1,
+#menu-nav-it,
 .box-it li,
 .box-it,
 .creditos,
 .box-sz1 h2,
-.box-sz2 h2,
-.navbar-maintop-tim,
-.box-sz3 li a {
+.searchbox input[type="text"] {
     font-family: 'TIMSansWeb', Fallback, times-new-roman
 }
-.box-it li {
-    color: #fff;
-    padding-top: 15px
+.logo2 {
+    width: 188px;
+    float: left;
 }
-.box-sz1 h2,
-.box-sz2 h2 {
-    color: #89c3ff
+.logo2 img {
+    width: 188px;
 }
-.fa {
-    color: #fff
+.navbar-toggle{
+    margin-top: 10px;
+    margin-right: 0;
+}
+.navbar-default,
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+    border: none;
+    background-color: transparent;
+}
+#menu-nav-it {
+    margin-top: 0;
+}
+#menu-nav-it li > a{
+    margin-right: 15px;
+    margin-left: 0;
+    padding: 10px;
+    color: #FFF;
+    border-radius: inherit;
+}
+#menu-nav-it li > a > .dropdown-toggle .fa-angle-down:before{
+    color: #00a4e4 !important;
+}
+.nav .open a:hover,
+.nav .open a:active,
+.nav .open a:focus,
+#menu-nav-it li > a:hover,
+#menu-nav-it li > a:active,
+#menu-nav-it li > a:focus,
+#menu-nav-it li.open > a:hover,
+#menu-nav-it li.open > a:active,
+#menu-nav-it li.open > a:focus
+{
+    color: #FFF;
+    border-radius: inherit;
+    background-color: #428bca !important;
+}
+#menu-nav-it li > ul > li > a,
+#menu-nav-it li.open > ul > li > a:hover,
+#menu-nav-it li.open > ul > li > a:focus,
+#menu-nav-it li.open > ul > li > a:active{
+    color: #075aa5;
+    font-size: 12px;
+    background-color: #fff;
+}
+#menu-nav-it li > ul > li > a:hover{
+    color: #00a4e4;
 }
 
+.navbar-toggle {
+    background: transparent;
+    border: none;
+}
 
-@media only screen and (min-width: 320px) {
-    .container-2 {
-        width: 320px
+.menu-nav-it-container{
+    padding: 0;
+}
+
+.searchbox {
+    width: 280px;
+    position: relative;
+    margin-top: 5px;
+    height: 25px
+}
+.searchbox input {
+    outline: none
+}
+.searchbox input:focus::-webkit-input-placeholder {
+    color: transparent
+}
+.searchbox input:focus:-moz-placeholder {
+    color: transparent;
+}
+.searchbox input:focus::-moz-placeholder {
+    color: transparent
+}
+.searchbox input[type="text"] {
+    background-color: #fff;
+    border: 0px;
+    font-size: 12px;
+    color: #666;
+    padding: 8px;
+    width: 260px;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    font-size: 12px;
+}
+.searchbox input[type="text"]:focus {
+    color: #000;
+    text-indent: 0px;
+}
+#button-submit {
+    background: url(<?php echo get_template_directory_uri();
+    ?>/imagens/searchicon.png) no-repeat;
+    margin-left: -32px;
+    border-width: 0px;
+    width: 21px;
+    height: 21px;
+}
+#search-row-mobile{
+    padding: 0;
+    height: 52px;
+}
+#search-row-mobile > .searchbox {
+    width: 100%;
+    padding-top: 8px;
+    margin-bottom: 8px;
+    height: 33px;
+    border-top: 1px solid #00a4e4;
+}
+#search-row-mobile > .searchbox > input[type="text"]{
+    width: 98%;
+}
+
+.footer-mobile {
+    width: 100%;
+    background-color: #075aa5;
+    height: 56px;
+    color: #00a4e4;
+    display: block;
+    margin: 0;
+    margin-top: 20px;
+    min-height: inherit;
+    padding: 17px 20px;
+}
+
+.footer-logo img {
+    width: 117px;
+}
+
+.footer-creditos{
+    margin-top: 6px;
+    text-align: right;
+
+}
+
+nav.navbar {
+    background: transparent;
+    padding: 0;
+}
+
+.logo2.logo-project{
+    width: 64px;
+    margin: 14px 0 0 12px;
+}
+
+.menu-fixed-border-left {
+    border-color: #155ea3;
+    border-style: solid;
+    border-width: 0 2px 0 0;
+}
+
+@media only screen and (max-width: 799px){
+    .home-first-section{
+        margin-top: 0;
     }
-    .nav-f {
+    .footer-creditos{
+        font-size: 7px;
+    }
+    #menu-nav-it{
+        background-color: #e7e7e7;
+    }
+    #menu-nav-it li > a{
+        color: #004279;
+        margin-right: 0;
+    }
+    .nav-e{
+        display: none;
+    }
+    #search-row-mobile{
         display: block;
-        width: 320px;
-        z-index: 9999;
     }
-    .box-sz2 {
-        width: 280px;
-        text-align: center
+    .menu-it,
+    .menu-it > .container.container-2.bar-secundary {
+        min-height: 56px;
     }
-    .box-sz2 p {
-        margin-top: 5px
+    .menu-fixed-bottom-left{
+        margin-top: 18px;
+        margin-left: 2px;
     }
-    .box-sz2 h2 {
-        font-size: 10pt !important;
-        padding-top: 20px
+    .menu-fixed-border-left{
+        padding-right: 15px;
+    }
+    .navbar{
+        margin-bottom: 0;
+    }
+    .navbar-header {
+        float: none;
+    }
+    .navbar-left,.navbar-right {
+        float: none !important;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
+    }
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+    .navbar-collapse.collapse {
+        display: none!important;
+    }
+    .navbar-nav {
+        float: none!important;
+        margin: 0;
+    }
+    .navbar-nav>li {
+        float: none;
+    }
+    .navbar-nav>li>a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .collapse.in{
+        display:block !important;
+    }
+    #footer-tim{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .logo2.logo-project {
+        width: 80px;
+        margin-top: 28px;
+    }
+    #search-row-mobile{
+        display: none;
+    }
+    .rede-social,
+    #footer-tim {
+        display: none
+    }
+    .container-2 {
+        width: 640px;
+        margin: 0 auto
+    }
+    .logo2 {
+        width: 188px;
+        float: left;
+        padding-right: 15px;
+        z-index: 99999;
+        height: 21px
+    }
+    .logo2 img {
+        width: 188px;
+        z-index: 99999
     }
     .bar-primary,
-    .bar-secundary,
-    .box-sz3 {
-        width: 310px
+    .bar-secundary {
+        padding-left: 20px;
+        width: 640px
     }
-    .box-sz3 {
+    .bar-secundary {
+        height: 99px;
+    }
+    .nav-it {
+        padding-right: 0;
+        border-top: 1px solid #00a4e4;
+        height: 39px
+    }
+    .nav-f {
+        position: relative;
+        z-index: 9999;
+        float: left;
+        display: block;
+        z-index: 1;
+        height: 90px;
+        width: 630px;
+    }
+    .nav-i {
+        width: 402px;
+        height: 55px;
+        margin-top: -9px
+    }
+    .nav-e {
+        width: 350px;
+        float: left;
+        padding-bottom: 0;
+        padding-top: 0;
+        height: 48px;
+    }
+    .container-2 {
+        width: 800px;
+    }
+    .bar-primary,
+    .bar-secundary {
+        width: 800px;
+    }
+    #menu-nav-it li > a {
+        font-size: 12px;
+        margin: 0;
+        padding: 10px 6px;
+    }
+    .nav-i {
+        width: 402px;
+        height: 57px;
+        margin-top: 0
+    }
+    .nav-e {
+        height: 35px;
+        margin-top: 7px
+    }
+    #menu-menu-1 li {
+        display: inline-block
+    }
+    .footer-mobile {
+        display: none
+    }
+    #et-featured-posts {
+        margin-top: 0
+    }
+    .ltrad {
+        margin-right: 15px
+    }
+    #footer-tim {
+        display: block;
+        width: 100%;
+        background-color: #075aa5;
+        margin-top: 30px;
+        height: 320px;
+        color: #00a4e4
+    }
+    #footer-tim ul {
+        padding: 0
+    }
+    .footer-tim {
+        width: 768px;
+        height: 180px;
+        font-size: 10pt;
+        padding: 30px
+    }
+    .footer-links {
+        margin-left: 0px
+    }
+    .footer-links li a {
+        font-size: 13px;
+        color: #fff;
+        text-decoration: none;
+        line-height: 0px;
+        margin: 0;
+        padding: 0
+    }
+    .footer-links a:hover {
+        color: #00a4e4
+    }
+    .footer-links li,
+    ul.rede-social {
+        list-style: none;
+    }
+    .box-it {
         float: left
     }
-    /* {padding-left:0px;width:320px}*/
-
-    .bar-primary {
-        padding-left: 10px
-    }
-    .bar-secundary {
-        padding-left: 0
-    }
-    .search2 {
-        margin-left: 5px
-    }
-    .home-first-section {
-        margin-top: 10px
-    }
-    .menu-fixed-border-left {
-        border-color: #004691
-    }
-    .bar-primary {
-        height: 25px;
-        padding-top: 5px
-    }
-    .bar-secundary {
-        height: 56px
+    .box-it li {
+        padding-top: 11px
     }
     .box-it li a {
+        font-size: 9pt;
         color: #fff
     }
     .box-it li a:hover {
         color: #82b9e6
     }
-    .rede-social {
-        display: none
-    }
-    .logo2 {
-        float: right;
-        width: 200px;
-        height: 22px;
-        margin-top: -20px;
-        padding: 0;
-        z-index: 99999
-    }
-    .logo2 img {
-        width: 160px;
-        z-index: 99999
-    }
-    .footer-links a {
-        color: #ffffff;
-        padding-top: 5px;
-        line-height: 20px;
-        text-decoration: none;
-    }
-    .footer-links a:hover {
-        color: #89c3ff
-    }
-    .footer-links li {
-        list-style: none;
-        color: #ffffff;
-        padding-top: 5px;
-        line-height: 0px;
-    }
-    /*pro TIMFazCiencia*/
-
-    #footer-tim {
-        width: 100%;
-        background-color: #004691;
-        margin-top: 0px;
-        height: 825px;
-        color: #89c3ff
-    }
     .creditos {
-        width: 300px;
+        width: 768px;
         height: 50px;
         text-align: center;
-        color: #89c3ff;
+        padding-top: 25px;
+        color: #00a4e4;
         font-size: 9pt;
-        clear: both;
-        margin-top: 400px
+        clear: both
     }
-    .footer-links {
-        margin-left: 0px
+    .box-sz2,
+    .box-sz2 img {
+        width: 120px;
+        text-align: center
+    }
+    .box-sz2 img {
+        margin-top: 0px;
+        margin-left: 15px
     }
     .box-sz1 {
-        width: 290px
+        width: 140px;
+        padding-left: 24px;
+        padding-right: 15px
     }
     .box-sz1 h2 {
-        font-size: 16px;
-        margin-top: 5px
-    }
-    .footerborder-left {
-        border-image: linear-gradient(to right, rgba(24, 86, 154, 1), rgba(1, 60, 125, 1)) 1 100% 1 100%;
-        border-style: solid;
-        border-width: 3px 0 3px 3px
-    }
-    .footer-tim {
-        width: 292px;
-        margin: 0 auto;
-        height: 300px;
-        font-size: 10pt;
-        padding: 10px;
-        background-color: #004691
-    }
-    .box-it {
-        float: none;
-        padding: 10px
-    }
-    #et-featured-posts {
-        margin-top: 14px
-    }
-}
-@media only screen and (min-width: 360px) {
-    .container-2 {
-        width: 360px
-    }
-    .box-sz1,
-    .box-sz2 {
-        width: 320px
-    }
-    .nav-f,
-    .footer-tim,
-    .creditos {
-        width: 340px
-    }
-    .bar-primary,
-    .bar-secundary {
-        padding-left: 10px;
-        width: 360px
-    }
-    /*pro TIMFazCiencia*/
-
-    .bar-secundary {
-        height: 134px
-    }
-    #footer-tim {
-        height: 646px;
-    }
-    .creditos {
-        margin-top: 264px;
-        margin-left: 5px
-    }
-    #searchbox{
-        display: none;
-    }
-    #mega-menu-wrap-header-1{
-        z-index: 999999999;
-    }
-}
-@media only screen and (max-width: 767px){
-    #mega-menu-wrap-header-1 .mega-menu-toggle .mega-toggle-block-5:after,
-    #mega-menu-wrap-header-1 .mega-menu-toggle.mega-menu-open .mega-toggle-block-5:after{
-        content: '';
-    }
-    #mega-menu-wrap-header-1 .mega-menu-toggle.mega-menu-open .mega-toggle-block-5:before{
-        content: '\f333';
-    }
-    .logo-project, .nav-e, .menu-fixed-border-left{
-        display: none;
-    }
-    .menu-it{
-        height: 56px;
-    }
-    #mega-toggle-block-1{
-        width: 157px;
-    }
-}
-@media only screen and (min-width: 768px){
-    .nav-it {
-        padding-right: 0;
-        border-top: 1px solid #00a4e4;
-        height: 39px;
-    }
-    #searchbox {
-        width: 280px;
-        position: relative;
-        padding: 7px 0;
-        display: block;
-    }
-    #searchbox input {
-        outline: none
-    }
-    #searchbox input:focus::-webkit-input-placeholder {
-        color: transparent
-    }
-    #searchbox input:focus:-moz-placeholder {
-        color: transparent;
-    }
-    #searchbox input:focus::-moz-placeholder {
-        color: transparent
-    }
-    #searchbox input[type="search"] {
-        background-color: #fff;
-        border: 0px;
-        font-size: 12px;
-        color: #666;
-        width: 260px;
-        border: 1px solid #fff;
-        border-radius: 4px;
-        font-size: 12px;
-        z-index: -1;
-        height: 31px;
-        padding:8px;
-    }
-    #button-submit {
-        background: url(<?php echo get_template_directory_uri();
-        ?>/imagens/searchicon.png) no-repeat;
-        margin-left: -32px;
-        border-width: 0px;
-        width: 21px;
-        height: 21px;
-    }
-    #button-submit:hover {
-        cursor: pointer;
-    }
-    .container-2 {
-        width: 768px;
-        margin: 0 auto
-    }
-    #menu-menu-1 li {
-        display: inline-block
-    }
-    .bar-primary,
-    .bar-secundary {
-        padding-left: 10px;
-        /*width: 600px*/
-    }
-    .nav-e {
-        padding-top: 0px
-    }
-    .box-sz3 {
-        width: 500px
-    }
-    .box-it {
-        float: left
-    }
-    .box-it li a {
-        font-size: 9pt;
-        padding: 3px
-    }
-    .logo2 {
-        width: 158px;
-        float: left;
-        margin-top: -5px;
-        padding-right: 5px
-    }
-    .logo-project {
-        width: 60px;
-        float: left;
-        padding-left: 5px;
-        padding-top: 24px;
-        margin-top: 0;
-        height: 35px;
-        z-index: 99999
-    }
-    .footerborder-left {
-        border-image: linear-gradient(to right, rgba(24, 86, 154, 1), rgba(1, 60, 125, 1)) 1 100% 1 100%;
-        border-style: solid;
-        border-width: 3px 0 3px 3px;
-        height: 150px;
-    }
-    /*pro TIMFazCiencia*/
-
-    #footer-tim {
+        font-family: 'TIMSansWebBold';
+        font-size: 14px;
         margin-top: 0px;
-        height: 310px
+        color: #00a4e4;
+        text-transform: uppercase;
     }
-    .footer-tim {
-        width: 748px;
-        height: 310px
+    .footer-links2 {
+        margin-left: 0px;
+        margin-top: -7px
     }
-    .bar-secundary {
-        height: 88px
+    .footer-links2 li a {
+        font-size: 15px;
+        font-family: 'TIMSansWebBold';
+        color: #00a4e4;
+        text-decoration: none;
+        line-height: 0px;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase
     }
-    .nav-f {
-        width: 530px;
-        float: left;
-        padding-left: 8px
+    .footer-links2 li a:hover {
+        color: #fff
     }
-    .box-sz1 {
-        width: 110px
+    .footer-links2 li {
+        list-style: none;
     }
-    .box-sz2 {
-        width: 154px;
-        padding-top: 90px
-    }
-    #et-featured-posts {
-        margin-top: 0
-    }
-    .creditos {
-        margin-top: -55px;
-        width: 768px;
-        width: 730px
-    }
-    #mega-menu-wrap-header-1 #mega-menu-header-1 > li.mega-menu-item > a.mega-menu-link {
-        font-size: 12px;
-        height: 36px
-    }
-    .bar-primary, .bar-secundary{
-        padding-left: 0;
-        width: 768px;
-    }
-}
-@media only screen and (min-width: 960px) {
-    .bar-primary, .bar-secundary{
-        padding-left: 75px;
-    }
-    .nav-it {
-        margin-top: 18px;
-    }
-    #mega-menu-wrap-header-1 #mega-menu-header-1 > li.mega-menu-item > a.mega-menu-link {
-        font-size: 13px;
-        height: 40px
-    }
-    .logo2 {
-        width: 280px;
-        float: left;
-        margin-top: -5px;
-        padding-right: 20px
-    }
-    .logo2 {
-        width: 220px;
-        margin-top: -5px;
-        padding-right: 12px
-    }
-    .box-it {
-        float: left;
-        padding: 20px
-    }
-    .box-sz3 {
-        width: 630px
-    }
-    .box-sz3 li {
-        padding: 5px 5px;
-        font-size: 10.5pt
-    }
-    .fa-search {
-        margin-top: 0px
-    }
-    .logo2 img {
-        width: 270px
-    }
-    .footer-tim {
-        width: 1000px;
-        height: 170px;
-        font-size: 10pt;
-        padding: 30px
-    }
-    .creditos {
-        width: 1000px;
-        height: 25px;
-        margin: 0 auto;
-        padding-top: 50px
-    }
-    .container-2 {
-        width: 990px;
-        margin: 0 auto
-    }
-    .search2 {
-        padding-left: 0
-    }
-    .bar-secundary {
-        height: 90px
-    }
-    .nav-f {
-        width: 572px;
-        float: left;
-        display: block;
-        z-index: 1;
-        height: 90px
-    }
-    .menu-fixed-border-left {
-        border-color: #155ea3;
-        border-style: solid;
-        border-width: 0 2px 0 0;
+    .footerborder-left {
+        box-shadow: -1px 0 0 0 rgb(39, 100, 191);
+        border-left: 1px solid #003b7b;
+        height: 150px;
+        -moz-box-shadow: -1px 0 0 0 rgb(39, 100, 191);
+        -webkit-box-shadow: -1px 0 0 0 rgb(39, 100, 191)
     }
     .menu-fixed-bottom-left {
-        top: 34px;
+        margin-top: 34px;
     }
-    .main {
-        margin-top: 0px
+}
+@media only screen and (min-width: 992px) {
+    #menu-nav-it > li > a{
+        margin-right: 10px;
+        padding-left: 10px;
     }
-    .footer-links a {
-        color: #ffffff;
-        padding-top: 5px;
-        line-height: 20px;
-        text-decoration: none;
+    .container-2 {
+        width: 970px;
+        margin: 0 auto
     }
-    .footer-links a:hover {
-        color: #89c3ff
-    }
-    .footer-links li {
-        list-style: none;
-        color: #ffffff;
-        padding-top: 5px;
-        line-height: 0px;
-    }
-    ul.rede-social {
-        list-style: none;
-    }
+
     .rede-social {
         width: 200px;
         float: right;
@@ -551,97 +527,191 @@
     .rede-social li a {
         color: #fff
     }
+    .main {
+        margin-top: 0px
+    }
+    .footer-tim,
+    .creditos {
+        width: 1024px
+    }
+    .footer-tim {
+        height: 204px;
+        font-size: 10pt;
+        padding: 30px;
+        margin: 0 auto
+    }
+    .creditos {
+        font-size: 17px;
+        height: 66px;
+        margin: 0 auto;
+        padding-top: 40px
+    }
+
+    .bar-primary,
+    .bar-secundary {
+        padding-right: 30px
+    }
+    .searchbox {
+        width: 280px;
+        margin-top: 5px;
+        height: 25px
+    }
+    .searchbox input[type="text"] {
+        background-color: #fff;
+        border: 0px;
+        font-size: 12px;
+        padding: 8px;
+        width: 260px
+    }
+    .nav-f {
+        width: 630px;
+        float: left;
+        padding-left: 25px;
+        display: block;
+        z-index: 1;
+        height: 90px
+    }
     .nav-i {
-        width: 550px;
-        height: 30px
+        width: 402px;
+        height: 48px;
+        margin-top: 9px
     }
     .nav-e {
         width: 350px;
         float: left;
         padding-bottom: 0;
         padding-top: 0;
-        height: 44px
+        height: 44px;
+        margin-top: 0
     }
-    .search2 {
-        margin-left: 0
-    }
-    /*pro TIMFazCiencia*/
-
-    .logo-project img {
-        width: 112px;
-        z-index: 99999
-    }
-    .logo-project {
-        width: 112px;
-        padding-left: 10px;
-        padding-top: 24px;
-        margin-top: 0;
-        height: 35px;
-        z-index: 99999
-    }
-    .box-it h2 {
-        font-size: 16px
-    }
-    .box-sz2 ul,
-    .box-sz2 li {
-        margin: 0;
-        padding: 0
-    }
-    .box-sz1 {
-        width: 136px
-    }
-    .footer-links {
-        margin-left: 0px
-    }
-    .box-sz2 {
-        width: 240px;
-        text-align: center
+    .box-it li a {
+        font-size: 17px;
+        padding: 3px
     }
     #footer-tim {
-        height: 360px;
-        color: #89c3ff;
-        margin-top: 0px
+        display: block;
+        width: 100%;
+        background-color: #075aa5;
+        margin-top: 30px;
+        color: #00a4e4
     }
+    .box-sz1,
+    .box-sz2 {
+        width: 197px
+    }
+    .box-sz2 {
+        width: 154px;
+        padding-top: 0px
+    }
+    .box-sz1 h2 {
+        font-size: 16px;
+        text-transform: uppercase;
+    }
+    /*.box-sz2, .box-sz2 img {width:134px}*/
+
+    .box-sz2 img {
+        width: 134px
+    }
+    .box-sz2 img {
+        margin-top: 0px;
+        margin-left: 24px
+    }
+    .footer-links li a {
+        color: #fff;
+        text-decoration: none;
+        line-height: 19px;
+        margin: 0;
+        padding: 0;
+        font-size: 13px
+    }
+    /*.footerborder-left {height: 180px}*/
+
+    .footer-links2 {
+        margin-left: 0px;
+        margin-top: -7px
+    }
+    .footer-links2 li a {
+        font-size: 15px;
+        font-family: 'TIMSansWebBold';
+        color: #00a4e4;
+        text-decoration: none;
+        line-height: 0px;
+        margin: 0;
+        padding: 0;
+        text-transform: uppercase
+    }
+    .footer-links2 li a:hover {
+        color: #fff
+    }
+    .footer-links2 li {
+        list-style: none;
+    }
+}
 
 </style>
-
 
 </head>
 <body <?php body_class(); ?>>
 
-
-
 <div id="tim-container">
 
-	<div class="logo-it">
-		<div class="container-2 bar-primary">
-			<a href="http://tim.com.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_portal_tim.png" title="Instituto TIM" alt="Instituto TIM" /></a>
-		</div>
-	</div>
+    <div class="logo-it">
+        <div class="container-2 bar-primary">
+            <a href="http://tim.com.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_portal_tim.png" title="Instituto TIM" alt="Instituto TIM" /></a>
+        </div>
+    </div>
 
-	<div class="menu-it">
-		<div class="container-2 bar-secundary">
-			<div class="logo2 menu-fixed-bottom-left menu-fixed-border-left">
-				<a href="https://institutotim.org.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_institutotim.png" alt="" title="" /></a>
-			</div>
+    <div class="menu-it">
+        <div class="container container-2 bar-secundary">
+            <div class="logo2 menu-fixed-bottom-left menu-fixed-border-left">
+                <a href="https://institutotim.org.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_institutotim.png" alt="" title="" /></a>
+            </div>
+            <div class="logo2 logo-project">
+                <a href="<?php echo get_option('home'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_timfazciencia.png" alt="" title="" /></a>
+            </div>
 
-			<div class="logo-project">
-				<a href="<?php echo get_option('home'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_timfazciencia.png" alt="" title="" /></a>
-			</div>
-
-			<div class="nav-f">
+            <div class="nav-f">
                 <div class="nav-i">
                     <div class="nav-e">
-                        <form id="searchbox" role="search" method="get" action="<?php echo home_url( '/' ); ?>">
-                            <input type="search" placeholder="O que você procura?" value="" name="s" title="O que você procura?" />
+                        <form class="searchbox" method="get" action="/" autocomplete="off">
+                            <input name="s" type="text" placeholder="O que você procura?" title="O que você procura?" />
                             <input id="button-submit" type="submit" value=" "/>
                         </form>
                     </div>
+                    <div class="rede-social"></div>
                 </div>
-				<div class="nav-it">
-					<?php wp_nav_menu( array( 'theme_location' => 'header-1' ) ); ?>
-				</div>
-			</div>
-		</div>
-	</div>
+                <div class="nav-it">
+                    <nav class="navbar">
+                        <div class="navbar-header navbar-default">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".menu-nav-it-container" aria-expanded="false">
+                                <span class="sr-only">Expandir Navegação</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <?php
+                            wp_nav_menu( array(
+                                'items_wrap'        => '<ul id="menu-nav-it" class="nav navbar-nav">%3$s</ul>',
+                                'menu'              => 'header-1',
+                                'theme_location'    => 'header-1',
+                                'depth'             => 2,
+                                'container'         => 'div',
+                                'container_class'   => 'menu-nav-it-container collapse navbar-collapse',
+                                'menu_class'        => 'nav navbar-nav',
+                                'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+                                'walker'            =>  new wp_bootstrap_navwalker()
+                            ));
+                        ?>
+                    </nav>
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12" id="search-row-mobile">
+                <form class="searchbox" method="get" action="/" autocomplete="off">
+                    <input name="s" type="text" size="15" placeholder="O que você procura?" title="O que você procura?" />
+                    <input id="button-submit" type="submit" value=" "/>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
