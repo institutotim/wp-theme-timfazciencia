@@ -135,7 +135,7 @@
 }
 
 .searchbox {
-    width: 280px;
+    width: 300px;
     position: relative;
     margin-top: 5px;
     height: 25px
@@ -504,6 +504,19 @@ nav.navbar {
         margin-top: 34px;
     }
 }
+
+@media only screen and (max-width: 991px) {
+    .nav-f {
+        width: 480px;
+    }
+    #menu-nav-it li > a {
+        padding: 10px 4px;
+    }
+    .logo2 {
+        padding-right: 10px;
+    }
+}
+
 @media only screen and (min-width: 992px) {
     #menu-nav-it > li > a{
         margin-right: 10px;
@@ -547,12 +560,7 @@ nav.navbar {
         padding-top: 40px
     }
 
-    .bar-primary,
-    .bar-secundary {
-        padding-right: 30px
-    }
     .searchbox {
-        width: 280px;
         margin-top: 5px;
         height: 25px
     }
@@ -566,7 +574,7 @@ nav.navbar {
     .nav-f {
         width: 630px;
         float: left;
-        padding-left: 25px;
+        padding-left: 12px;
         display: block;
         z-index: 1;
         height: 90px
@@ -656,7 +664,7 @@ nav.navbar {
 <div id="tim-container">
 
     <div class="logo-it">
-        <div class="container-2 bar-primary">
+        <div class="container container-2 bar-primary">
             <a href="http://tim.com.br/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/imagens/logo_header_portal_tim.png" title="Instituto TIM" alt="Instituto TIM" /></a>
         </div>
     </div>

@@ -2204,7 +2204,7 @@ p { line-height: 18px; font-size: 14px; }
 		.footer-realizacao span { float: left; margin: 0 20px 0;}
 
 
-@media only screen and (max-width: 960px) and (min-width: 767px) {
+@media only screen and (max-width: 992px) and (min-width: 800px) {
 
 	.container, .image-header { width: 721px; }
 
@@ -2271,7 +2271,7 @@ p { line-height: 18px; font-size: 14px; }
 }
 
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 800px){
 
 		.container, .image-header { width: 100%; }
 
@@ -2408,7 +2408,7 @@ p { line-height: 18px; font-size: 14px; }
 
 
    /* Testing media querie orientation */
-@media only screen and (max-width: 767px) and (orientation: landscape){
+@media only screen and (max-width: 800px) and (orientation: landscape){
 		.container, .image-header { width: 100%; }
 
 		#top-info { height: 204px; }
