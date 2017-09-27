@@ -6,14 +6,14 @@
 	<div class="footer-tim">
 		<div class="box-it box-sz1">
 			<h2>O que é TIM Faz Ciência?</h2>
-                          <?php 
+                          <?php
                           wp_nav_menu ( array(
                           'theme_location' => 'footer-1',
-                          'menu' => '', 
+                          'menu' => '',
                           'menu-class' => '',
-                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>', 
-                          'container' => '', 
-                          'fallback_cb' => '', 
+                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>',
+                          'container' => '',
+                          'fallback_cb' => '',
                           'depth' => 2)
                           ); ?>
 
@@ -21,14 +21,14 @@
 
 		<div class="box-it box-sz1 footerborder-left">
 			<h2>Conheça as 7 Operações</h2>
-                          <?php 
+                          <?php
                           wp_nav_menu ( array(
                           'theme_location' => 'footer-2',
-                          'menu' => '', 
+                          'menu' => '',
                           'menu-class' => '',
-                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>', 
-                          'container' => '', 
-                          'fallback_cb' => '', 
+                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>',
+                          'container' => '',
+                          'fallback_cb' => '',
                           'depth' => 2)
                           ); ?>
 		</div>
@@ -38,18 +38,18 @@
                           <?php
                           wp_nav_menu ( array(
                           'theme_location' => 'footer-3',
-                          'menu' => '', 
+                          'menu' => '',
                           'menu-class' => '',
-                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>', 
-                          'container' => '', 
-                          'fallback_cb' => '', 
+                          'items_wrap' => '<ul id="%1$s" class="footer-links">%3$s</ul>',
+                          'container' => '',
+                          'fallback_cb' => '',
                           'depth' => 2)
                           ); ?>
 		</div>
-		  
+
 		<div class="box-it box-sz1 footerborder-left">
 			<h2>Queremos Ouvir Você</h2>
-                          <?php 
+                          <?php
                           wp_nav_menu ( array(
                           'theme_location' => 'footer-4',
                           'menu' => '',
@@ -75,5 +75,6 @@
 
 
 	<?php wp_footer(); ?>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
 </html>
