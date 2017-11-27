@@ -209,7 +209,7 @@ function et_nexus_load_scripts_styles(){
 
 
 
-	// wp_enqueue_script( 'superfish', $template_dir . '/js/superfish.js', array( 'jquery' ), '1.0', true );
+	wp_enqueue_script( 'superfish', $template_dir . '/js/superfish.js', array( 'jquery' ), '1.0', true );
 
 
 
