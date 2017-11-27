@@ -30,9 +30,9 @@
 		document.documentElement.className = 'js';
 	</script>
 	<?php wp_head(); ?>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700' rel='stylesheet' type='text/css'>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 
 <style>
@@ -122,7 +122,8 @@
     background-color: #fff;
 }
 #menu-nav-it li > ul > li > a:hover{
-    color: #00a4e4;
+    color: #075aa5;
+    text-decoration: none;
 }
 
 .navbar-toggle {
@@ -390,7 +391,7 @@ nav.navbar {
         display: none
     }
     #et-featured-posts {
-        margin-top: 0
+        margin-top: 1px;
     }
     .ltrad {
         margin-right: 15px
