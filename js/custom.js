@@ -430,19 +430,19 @@
 
 
 
-		$et_top_menu.superfish({
+		// $et_top_menu.superfish({
 
-			delay		: 500, 										// one second delay on mouseout
+		// 	delay		: 500, 										// one second delay on mouseout
 
-			animation	: { opacity : 'show', height : 'show' },	// fade-in and slide-down animation
+		// 	animation	: { opacity : 'show', height : 'show' },	// fade-in and slide-down animation
 
-			speed		: 'fast', 									// faster animation speed
+		// 	speed		: 'fast', 									// faster animation speed
 
-			autoArrows	: true, 									// disable generation of arrow mark-up
+		// 	autoArrows	: true, 									// disable generation of arrow mark-up
 
-			dropShadows	: false										// disable drop shadows
+		// 	dropShadows	: false										// disable drop shadows
 
-		});
+		// });
 
 
 
